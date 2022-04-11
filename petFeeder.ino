@@ -8,8 +8,8 @@
 #include "SingleSweepServo.h"
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-const char *ssid     = "Winterfell";
-const char *password = "thenorthremembers";
+const char *ssid     = "WiFiName";
+const char *password = "WiFiPassword";
 int status = WL_IDLE_STATUS; // set WiFi connection status
 
 WiFiUDP ntpUDP;
