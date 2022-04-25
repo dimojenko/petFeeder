@@ -14,7 +14,7 @@ class SingleSweepServo {
   int updateInterval;             // interval between updates (ms)
   unsigned long lastUpdate = 0;   // last update of position
   bool halfSweepComplete = false; // if servo has reached posSweep position
-  bool sweepComplete = false;     // if servo 
+  bool sweepComplete = false;     // if servo has completed full sweep
  
 public: 
   SingleSweepServo(int interval, int pos1, int pos2) {
